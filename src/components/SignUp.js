@@ -70,7 +70,7 @@ const SignUp = () => {
                 {errors.email && touched.email && <span>{errors.email}</span>}
             </div>
             <div className={styles.formField}>
-                <lable>Password</lable>
+                <label>Password</label>
                 <input
                     className={(errors.password && touched.password) ? styles.uncompleted : styles.formInput}
                     type="password"
