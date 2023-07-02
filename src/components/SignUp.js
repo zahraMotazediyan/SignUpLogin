@@ -62,7 +62,8 @@ const SignUp = () => {
                 <label>Email</label>
                 <input
                     className={(errors.email && touched.email) ? styles.uncompleted : styles.formInput}
-                    type="text" name="email"
+                    type="text"
+                    name="email"
                     value={data.email}
                     onChange={changeHandler}
                     onFocus={focusHandler}/>
@@ -96,7 +97,7 @@ const SignUp = () => {
                     <input
                         type="checkbox"
                         name="isAccepted"
-                        value={data.isAccepted}
+                        checked={data.isAccepted}
                         onChange={changeHandler}
                         onFocus={focusHandler}/>
                 </div>

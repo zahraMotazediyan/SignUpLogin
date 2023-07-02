@@ -78,7 +78,6 @@
 }
 
 .formButton {
-
 }
 
 input[type="checkbox"] {
@@ -86,7 +85,7 @@ input[type="checkbox"] {
     height: 18px;
     width: 18px;
     border: 1px solid #1a73e8;
-    appearance: none;
+    /*appearance: none;*/
     border-radius: 5px;
     transition: all 0.2s ease-in;
 }
