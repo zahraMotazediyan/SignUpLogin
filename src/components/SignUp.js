@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from "react";
-import {validate} from "./validate";
+import {validate} from "../utils/validate";
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import {notify} from "./toast";
-import styles from "./SignUp.module.css";
+import {notify} from "../utils/toast";
+import styles from "../styles/SignUp.module.css";
 
 const SignUp = () => {
 
