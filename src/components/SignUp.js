@@ -4,8 +4,8 @@ import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import {notify} from "../utils/toast";
 import styles from "../styles/SignUp.module.css";
-import {link} from "react-router-dom";
-import Login from "./Login";
+import {Link} from "react-router-dom";
+
 
 
 const SignUp = () => {
@@ -107,7 +107,7 @@ const SignUp = () => {
                 {errors.isAccepted && touched.isAccepted && <span>{errors.isAccepted}</span>}
             </div>
             <div className={styles.formButton}>
-                <link to="/login">login</link>
+                <Link to="/login">login</Link>
                 <button type="submit">sign up</button>
             </div>
             <ToastContainer/>
