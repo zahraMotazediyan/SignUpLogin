@@ -1,0 +1,32 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.formContainer {
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    padding: 50px;
+    margin: 50px;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.header {
+    color: #1a73e8;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 75px;
+}
