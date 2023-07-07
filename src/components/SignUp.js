@@ -27,8 +27,8 @@ const SignUp = () => {
     const [touched, setTouched] = useState({})
 
     useEffect(() => {
-        setErrors(validate(data))
-        console.log(errors)
+        setErrors(validate(data,"signup"))
+        // console.log(errors)
     }, [data, touched])
 
     const focusHandler = event => {
