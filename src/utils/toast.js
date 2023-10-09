@@ -1,10 +1,10 @@
 import {toast} from "react-toastify";
 
 
-export const notify = (text,type) =>{
-    if (type === "success"){
+export const notify = (text, type) => {
+    if (type === "success") {
         toast.success(text)
-    }else {
+    } else {
         toast.error(text)
     }
 }
